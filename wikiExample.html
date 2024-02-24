@@ -8,6 +8,16 @@
 <body>
     <header>
         <h1>Wikipedia</h1>
+        <nav>
+            <ul>
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#text">Text</a></li>
+                <li><a href="#lists">Lists</a></li>
+                <li><a href="#images">Images</a></li>
+                <li><a href="#tables">Tables</a></li>
+                <li><a href="#forms">Forms</a></li>
+            </ul>
+        </nav>
     </header>
 
     <section id ="intro">
@@ -47,6 +57,41 @@
     <section id="images">
         <h2>Cat Image</h2>
         <img src="https://cdn.britannica.com/34/235834-050-C5843610/two-different-breeds-of-cats-side-by-side-outdoors-in-the-garden.jpg?w=400&h=300&c=crop" alt="Placeholder Image">
+    </section>
+
+    <section id="tables">
+        <h2>Tables</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Header 1</th>
+                    <th>Header 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Row 1, Cell 1</td>
+                    <td>Row 1, Cell 2</td>
+                </tr>
+                <tr>
+                    <td>Row 2, Cell 1</td>
+                    <td>Row 2, Cell 2</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="forms">
+        <h2>Forms</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
     </section>
 
 </body>
