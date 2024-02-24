@@ -63,55 +63,87 @@ To install the "Live Server" extension:
 3. Search for "Live Server" in the extensions marketplace.
 4. Click on the "Install" button next to the "Live Server" extension.
 
-
 ---
 
-### Lesson 1: HTML Boilerplate
+### Lesson 1: Terminal/Command Line
 
-**For Further Reading:** [Introduction to HTML - W3Schools](https://www.w3schools.com/html/html_intro.asp)
+#### What is the Terminal/Command Line?
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-</head>
-<body>
-   
+The terminal, also known as the command line or shell, is a text-based interface for interacting with your computer's operating system. It allows you to execute commands to perform various tasks such as navigating through directories, managing files, and running programs.
 
-</body>
-</html>
-```
+#### Windows Instructions:
 
-Explanation:
+1. **Open Command Prompt**:
+   - Press `Windows + R` to open the Run dialog.
+   - Type `cmd` and press Enter.
 
-1. `<!DOCTYPE html>`: 
-   - This is a document type declaration that tells the browser which version of HTML the page is written in. In this case, it's HTML5, which is the latest version of HTML.
+2. **Navigate to a Directory**:
+   - Use the `cd` command followed by the path of the directory you want to navigate to.
+     ```
+     cd path\to\directory
+     ```
 
-2. `<html lang="en">`:
-   - This tag marks the beginning of the HTML document and indicates that the language of the document is English (`lang="en"`). It encloses all the content of the HTML document.
+3. **Create a New Directory**:
+   - Use the `mkdir` command followed by the name of the new directory.
+     ```
+     mkdir new_directory
+     ```
 
-3. `<head>`:
-   - The `<head>` element contains meta-information about the HTML document, such as character encoding, viewport settings, stylesheets, scripts, and the document's title. This section is not displayed on the web page itself.
+4. **Create a File**:
+   - Use the `type nul >` command followed by the name of the file you want to create.
+     ```
+     type nul > wiki.html
+     ```
 
-4. `<meta charset="UTF-8">`:
-   - This meta tag specifies the character encoding for the document. UTF-8 is a widely-used character encoding that supports a wide range of characters from various languages.
+#### Mac Instructions:
 
-5. `<meta name="viewport" content="width=device-width, initial-scale=1.0">`:
-   - This meta tag configures the viewport settings for the page, especially for responsive web design. It ensures that the width of the viewport matches the device's width and sets the initial zoom level to 1.0, which is equivalent to 100%.
+1. **Open Terminal**:
+   - Press `Command + Space` to open Spotlight Search.
+   - Type `Terminal` and press Enter.
 
-6. `<title></title>`:
-   - The `<title>` element defines the title of the HTML document, which appears in the browser's title bar or tab. It's also used by search engines and social media platforms when displaying search results or shared links.
+2. **Navigate to a Directory**:
+   - Use the `cd` command followed by the path of the directory you want to navigate to.
+     ```
+     cd /path/to/directory
+     ```
 
-7. `<body>`:
-   - The `<body>` element contains all the content that is visible on the web page, including text, images, links, videos, and other HTML elements. This is where the actual content of the web page resides.
+3. **Create a New Directory**:
+   - Use the `mkdir` command followed by the name of the new directory.
+     ```
+     mkdir new_directory
+     ```
 
-8. `</body>` and `</html>`:
-   - These are closing tags that mark the end of the `<body>` and `<html>` elements, respectively. All HTML content must be enclosed within these tags.
+4. **Create a File**:
+   - Use the `touch` command followed by the name of the file you want to create.
+     ```
+     touch wiki.html
+     ```
 
-Overall, this HTML boilerplate provides the basic structure and meta-information for an HTML document, ensuring proper rendering and functionality across different devices and browsers.
+These commands will help you navigate through directories, create new directories, and create files in the terminal/command line interface on both Windows and Mac operating systems.
 
---- 
 
+### Recommendation: GitBash for Windows Users
+
+If you're using Windows and prefer a Unix-like command line experience, I highly recommend using GitBash. GitBash provides a lightweight and powerful terminal emulator that includes Git for version control along with a Unix-like command line experience.
+
+#### Why GitBash?
+
+1. **Unix-Like Environment**: GitBash provides a Unix-like command line interface, which is more familiar to me as a developer accustomed to working with Linux or macOS.
+
+2. **Git Integration**: GitBash comes bundled with Git, allowing me to perform version control tasks directly from the command line without needing to install additional software.
+
+3. **Enhanced Productivity**: With GitBash, I can leverage powerful Unix commands and scripting capabilities to streamline my development workflow and automate repetitive tasks.
+
+4. **Compatibility**: GitBash ensures compatibility with many Unix-based development tools and utilities, making it easier for me to collaborate with teams using different operating systems.
+
+#### How to Install GitBash:
+
+1. **Download Git for Windows**: I can visit the official Git website and download the Git for Windows installer: [Git for Windows](https://gitforwindows.org/)
+
+2. **Run the Installer**: After downloading the installer, I can double-click the file and follow the on-screen instructions to install GitBash on my system.
+
+3. **Launch GitBash**: Once installed, I can launch GitBash from the Start menu or by searching for "Git Bash" in the Windows search bar.
+
+4. **Customize Settings (Optional)**: I have the option to customize GitBash settings such as font size, color scheme, and default shell preferences to suit my preferences.
+
+By using GitBash, I'll have access to a powerful and versatile command line environment tailored for web development on the Windows platform.
