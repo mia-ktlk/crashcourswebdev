@@ -704,5 +704,51 @@ Bootstrap offers a wide range of themes and templates. These themes include pre-
 
 4. You now have the theme files available locally for editing.
 
+### Lesson 9: Make It Your Own
 
+1. **Clone Your Repository:**
+   - If you haven't already, clone your repository to your local machine. You can do this by using the command:
+     ```bash
+     git clone <repository_url>
+     ```
+   - Replace `<repository_url>` with the URL of your GitHub repository.
+
+2. **Open Files in VS Code:**
+   - Open Visual Studio Code (VS Code).
+   - Navigate to the folder where you cloned your repository.
+   - Open the files of your website project in VS Code.
+
+3. **Preview Your Site with Live Server:**
+   - If you don't have the Live Server extension installed, you can install it from the VS Code extensions marketplace.
+   - Once installed, open the HTML file you want to preview.
+   - Click on the "Go Live" button at the bottom right corner of the VS Code window.
+   - This will launch a live server and open your site in your default web browser.
+
+4. **Customize Your Website:**
+   - Modify the HTML, CSS, and JavaScript files to personalize your website. You can change text, colors, layout, add new features, etc.
+   - Experiment with different Bootstrap components and layouts to suit your preferences.
+
+5. **Push Changes to GitHub:**
+   - Once you're satisfied with your changes, save your files and return to VS Code.
+   - Open the integrated terminal in VS Code.
+   - Add your changes to the staging area and commit them:
+     ```bash
+     git add .
+     git commit -m "Updated website with customizations"
+     ```
+   - Push your changes to your GitHub repository:
+     ```bash
+     git push origin main
+     ```
+
+6. **Deploy Your Site on GitHub Pages:**
+   - Go to your GitHub repository page in a web browser.
+   - Click on the "Settings" tab.
+   - Scroll down to the "GitHub Pages" section.
+   - Under "Source", select the branch where your main website files are (usually `main` or `master`).
+   - Click on "Save".
+   - Your site will be deployed to GitHub Pages, and you'll see a link to access it. It might take a few moments to be available.
+
+7. **Celebrate Your Deployed Website:**
+   - Congratulations! Your customized website is now live on the internet.
 
