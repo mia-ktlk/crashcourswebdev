@@ -1,13 +1,15 @@
-<!DOCTYPE html> <!-- This declares the document type and specifies that the document is an HTML5 document. -->
-<html lang="en"> <!-- This marks the beginning of the HTML document and specifies the language as English. -->
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8"> <!-- This meta tag specifies the character encoding for the document, which is UTF-8. -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- This meta tag sets the viewport properties for responsive design. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Example Wikipedia Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Wikipedia</h1>
+        <h1 class="pb-3">Wikipedia</h1>
         <nav>
             <ul>
                 <li><a href="#intro">Intro</a></li>
@@ -20,11 +22,10 @@
         </nav>
     </header>
 
-    <section id ="intro">
-    <h2>Cats</h2>
-    <p>Cats (Felis catus), commonly referred to as domestic <a href="https://en.wikipedia.org/wiki/Cat">cats</a>, are small carnivorous mammals that belong to the family Felidae. As one of the most popular pets worldwide, cats have a long history of companionship with humans, dating back thousands of years. Renowned for their independent nature and keen hunting instincts, cats are valued for their ability to control pests such as rodents in human habitats. Domestic cats exhibit a diverse range of breeds, each with unique physical characteristics and temperament traits. From the elegant Siamese to the majestic Maine Coon, these breeds reflect centuries of selective breeding by humans. While domestic cats primarily live in homes as beloved companions, feral populations can also be found thriving in urban and rural environments across the globe. With their enigmatic personalities and captivating charm, cats continue to capture the hearts of people worldwide, earning their place as one of humanity's most cherished animal companions.</p>
+    <section id="intro">
+        <h2>Cats</h2>
+        <p>Cats (Felis catus), commonly referred to as domestic <a href="https://en.wikipedia.org/wiki/Cat">cats</a>, are small carnivorous mammals that belong to the family Felidae. As one of the most popular pets worldwide, cats have a long history of companionship with humans, dating back thousands of years. Renowned for their independent nature and keen hunting instincts, cats are valued for their ability to control pests such as rodents in human habitats. Domestic cats exhibit a diverse range of breeds, each with unique physical characteristics and temperament traits. From the elegant Siamese to the majestic Maine Coon, these breeds reflect centuries of selective breeding by humans. While domestic cats primarily live in homes as beloved companions, feral populations can also be found thriving in urban and rural environments across the globe. With their enigmatic personalities and captivating charm, cats continue to capture the hearts of people worldwide, earning their place as one of humanity's most cherished animal companions.</p>
     </section>
-
 
     <section id="text">
         <h2>Text Formatting</h2>
@@ -36,7 +37,6 @@
             "This is a blockquote."
         </blockquote>
     </section>
-
 
     <section id="lists">
         <h2>Types of Cat</h2>
@@ -93,6 +93,10 @@
             <input type="submit" value="Submit">
         </form>
     </section>
+
+    <footer>
+        <p>&copy; 2024 Mia Kotalik</p>
+    </footer>
 
 </body>
 </html>
