@@ -42,11 +42,7 @@
 
 Let's make sure you have the necessary tools and resources to get started.
 
-#### Step 1: Take the Survey
-
-Please take a moment to fill out this survey to help me understand your current skill level and goals for this workshop: [Survey Link](https://forms.gle/RxA7BoVPGxNffY2R6).
-
-#### Step 2: Download Visual Studio Code (VSCode)
+#### Step 1: Download Visual Studio Code (VSCode)
 
 Download Visual Studio Code (VSCode) from the official website: [Download VSCode](https://code.visualstudio.com/).
 If you prefer to use another Integrated Development Environment (IDE) for web development, feel free to use whichever tool you're comfortable with. Just make sure it supports HTML, CSS, and JavaScript development.
