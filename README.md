@@ -1,9 +1,7 @@
 
-# Mia X The SteamBoat
+# Curie & Co Mentorship Program
 ## Workshop Outline: Introduction to Web Development
-### Total Duration: 1 Hour and 30 Minutes
 
-**Survey:** If you have not taken this survey yet please do: [Survey Link](https://forms.gle/RxA7BoVPGxNffY2R6)
 
 ## Part 1: Diving into HTML/CSS and JavaScript (45 minutes)
 **Objective:** Introduce participants to the building blocks of web development through a hands-on project of building a Wikipedia page. Participants will learn the fundamentals of HTML and CSS, and get a small taste of JavaScript. The goal is for everyone to understand how these elements work together to create websites.
